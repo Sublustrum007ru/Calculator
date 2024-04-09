@@ -1,7 +1,7 @@
 package task.impl;
+import java.util.List;
 
 public interface Operationable {
-    double calculate(double x, double y);
+    String calculate(List<Double> x, List<Double> y);
 
-//    char getOperationName();
 }

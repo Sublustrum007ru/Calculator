@@ -1,10 +1,12 @@
 package task.wholenumb;
 
 import task.impl.Operationable;
+import java.util.List;
 
 public class Multiplication implements Operationable {
     @Override
-    public double calculate(double x, double y) {
-        return x * y;
+    public String calculate(List<Double> x, List<Double> y) {
+        double result = x.get(0) * y.get(0);
+        return "" + result;
     }
 }

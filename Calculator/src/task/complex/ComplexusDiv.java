@@ -1,10 +1,12 @@
 package task.complex;
 
 import task.impl.Operationable;
+import java.util.List;
 
 public class ComplexusDiv implements Operationable {
     @Override
-    public double calculate(double x, double y) {
-        return x / y; // условно
+    public String calculate(List<Double> x, List<Double> y) {
+
+        return "Empty"; // условно
     }
 }
